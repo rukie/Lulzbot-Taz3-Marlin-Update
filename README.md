@@ -15,6 +15,34 @@ Create files
 - Configuration.h
 - Configuration_adv.h
 
+# Save Existing Settings
+On your TAZ LCD screen save your Configuration settings
+
+For my TAZ 3.
+
+Motion
+Accel 500
+Vxy jerk 8
+Vz jerk +0.40
+Ve-jerk 10
+Vmax x 800
+Vmax y 800
+Vmax z 3
+Vmax e 50
+Vmin 0
+VTrav min 0 
+Amax x 9000
+Amax y 9000
+Amax z 100
+Amax e 10000A-retract 3000
+Xsteps/mm 100.50
+Ysteps/mm 100.50
+Zsteps/mm 0800.0
+Esteps/mm 0846.0
+
+# Saving Previous Firmware
+
+Use AVRDUDESS 2.14
 
 
 References
